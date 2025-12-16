@@ -36,6 +36,7 @@ nav {
   width: 4em;
   margin-top: 1em;
   margin-left: 1em;
+  cursor: pointer;
 }
 
 .winkel{
@@ -53,6 +54,50 @@ nav {
   width: 6em;
   margin-top: -4em;
 }
+
+
+.dropdownp {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  background: #780116;
+  border-radius: 0px;
+  min-width: 100px;
+  display: none;
+  text-align: center;
+}
+
+
+.dropdownp.active {
+  display: block;
+}
+
+.dropdownp a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #F5F1DC;
+    font-family: "Galada", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+}
+.lijn{
+    background-color: #E36414;
+    color: #E36414;
+    padding-top: 0.2em;
+    padding-right: 10em;
+}
+.Profile{
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+.Settings{
+        margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+
 
 .searchc{
     display: flex;
@@ -192,4 +237,47 @@ footer{
 }
 .rate{
     margin-right: 5em;
+}
+
+
+
+.dropdownp {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  background: #780116;
+  border-radius: 0px;
+  min-width: 100px;
+  display: none;
+  text-align: center;
+}
+
+
+.dropdownp.active {
+  display: block;
+}
+
+.dropdownp a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #F5F1DC;
+    font-family: "Galada", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+}
+.lijn{
+    background-color: #E36414;
+    color: #E36414;
+    padding-top: 0.2em;
+    padding-right: 10em;
+}
+.Profile{
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+.Settings{
+        margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }

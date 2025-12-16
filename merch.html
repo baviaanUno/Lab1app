@@ -12,14 +12,20 @@
         <link rel="stylesheet" href="merch.css">
 </head>
 <body>
-        <nav>
+    <nav>
         <div class="nav">
-        <img class="pfp" src="Clubfritiqueappimg/Pfp.webp" alt="profiel">
-        <img class="logo" src="Clubfritiqueappimg/logo.svg" alt="logo">
+            <div class="profile-dropdown">
+            <img class="pfp" src="Clubfritiqueappimg/Pfp.webp" alt="profiel">
+            <div class="dropdownp">
+                <a class="Profile" href="#">Profile</a>
+                <span class="lijn"></span>
+                <a class="Settings" href="#">Settings</a>
+            </div>
+            </div>
+            <img class="logo" src="Clubfritiqueappimg/logo.svg" alt="logo">
         <img class="winkel" src="Clubfritiqueappimg/Winkelmand.svg" alt="winkelmand">
-        </div>
-        </nav>
-
+    </div>
+    </nav>
 
 
 
@@ -301,5 +307,19 @@
             <a class="Merch" href="merch.html"><img src="Clubfritiqueappimg/Merch.svg" alt="Merch"></a>
             <a class="rate" href="rate.html"><img src="Clubfritiqueappimg/ster.svg" alt="rate"></a>
         </footer>
+                <script>
+  const profileImg = document.querySelector(".pfp");
+  const dropdown = document.querySelector(".dropdownp");
+
+  profileImg.addEventListener("click", (e) => {
+    e.stopPropagation();
+    dropdown.classList.toggle("active");
+  });
+
+  document.addEventListener("click", () => {
+    dropdown.classList.remove("active");
+  });
+</script>
+
 </body>
 </html>
