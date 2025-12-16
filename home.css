@@ -130,6 +130,7 @@ nav {
     border: #E36414;
     border-radius: 1em;
 }
+
 .dropdown {
     font-family: "Galada", cursive;
   font-weight: 400;
@@ -147,6 +148,7 @@ nav {
     background-position: right 10px center;
     background-size: 20px;
     width: 16em;
+
 }
 .dropdownr {
   position: relative;
@@ -281,3 +283,5 @@ footer{
         margin-bottom: 0.5em;
     margin-top: 0.5em;
 }
+
+
