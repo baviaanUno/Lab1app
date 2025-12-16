@@ -23,7 +23,8 @@ margin: 0;
     background-color: #780116;
     display: flex;
     flex-direction: column;
-    padding-bottom: 3em;
+    padding-bottom: 0em;
+    
 }
 
 
@@ -92,6 +93,166 @@ font-style: normal;
   font-weight: 400;
   font-style: normal;
 }
+.knopb{
+    background-image: url(Clubfritiqueappimg/golf.svg);
+      background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+  height: 150px;
+
+}
+
+.geen{
+font-family: "Galada", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 10em;
+  font-size: 4em;
+}
+
+
+.cont{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.post{
+    background-color: #E36414;
+    margin-left: 2em;
+    margin-right: 3em;
+    border: #E36414;
+    border-radius: 1em;
+    margin-bottom: 6em;
+}
+.dropdown {
+    font-family: "Galada", cursive;
+  font-weight: 400;
+  font-style: normal;
+    appearance: none;
+    background-color: #F5F1DC;
+    border: 2px solid #780116;
+    border-radius: 50px;          
+    padding: 14px 40px 5px 40px; 
+    font-size: 1.6em;
+    cursor: pointer;
+    outline: none;
+    background-image: url('Clubfritiqueappimg/Dropdown.svg'); /* eigen pijl */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    width: 16em;
+}
+.dropdownr {
+  position: relative;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.location-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+.dropdowns{
+    display: grid;
+    justify-content: flex-end;
+    gap: 0.4em;
+    padding-top: 1em;
+}
+.pfpp{
+    position: relative;
+    margin-bottom: -7em;
+    padding-left: 0.5em;
+}
+
+.pfpp img{
+    width: 7em;
+}
+.tekst{
+    background-color: #F5F1DC;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.5em;
+    border: #780116 solid 2px;
+    border-radius: 1em;
+    line-height: 1.3em;
+    font-size: 1.4em;
+}
+.rating{
+    background-color: #F5F1DC;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.3em;
+    border: #780116 solid 2px;
+    border-radius: 1em;
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    gap: 0.8em;
+}
+.rating img{
+    width: 7em;
+}
+.bpost{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+.like{
+    margin-top: 2em;
+    width: 5em;
+}
+.like img{
+    width: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
