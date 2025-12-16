@@ -19,13 +19,7 @@ nav {
   background-size: 100% auto;
   background-position: top center;
   z-index: 10;
-}
-.button1:hover{
-    transform: scale(1.1);
-}
 
-.button:hover{
-    transform: scale(1.1);
 }
 .nav{
   display: grid;
@@ -131,7 +125,32 @@ nav {
   font-style: normal;
 }
 
+.button1:hover{
+    transform: scale(1.1);
+}
 
+.button:hover{
+    transform: scale(1.1);
+}
+
+.size{
+    display: flex;
+    flex-direction: row;
+    color: #F5F1DC;
+    gap: 2em;
+
+}
+
+.size h2{
+    background-color: #780116;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 20px;
+    font-size: 2em;
+}
+
+.size h2:hover{
+    transform: scale(1.1);
+}
 
 
 
