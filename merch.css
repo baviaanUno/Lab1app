@@ -1,0 +1,192 @@
+body{
+font-family: "brother-1816-printed", sans-serif;
+font-weight: 400;
+font-style: normal;
+background-color: #F5F1DC;
+margin: 0;
+
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 124px;
+  margin-left: -1px;
+  padding-right: 2px;
+  background-image: url("Clubfritiqueappimg/groep6.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+  z-index: 10;
+
+}
+.nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  align-items: start;
+}
+
+.pfp{
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: start;
+  width: 4em;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.winkel{
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: end;
+  width: 4em;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+.logo{
+  grid-column: 1 / -1;
+  grid-row: 2;
+  justify-self: center;
+  width: 6em;
+  margin-top: -4em;
+}
+
+
+
+
+
+
+
+
+
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding: 1rem;
+  padding-top: 10em;
+  margin-right: 1em;
+}
+
+.product {
+  background: #E36414;
+  border-radius: 40px;
+  padding: 0rem;
+  position: relative;
+   text-align: center;
+       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+
+}
+.info{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2.5em;
+    color: #F5F1DC;
+    background-color: #780116;
+    padding: 1em;
+    font-size: 1.3em;
+    border-radius: 40px;
+    width: 7em;
+}
+.cart{
+
+    text-decoration: none;
+    display: inline-block;
+    color: #F5F1DC;
+    background-color: #780116;
+    padding: 1em;
+    margin-top: 1em;
+    font-size: 1.3em;
+    border-radius: 40px;
+    width: 7em;
+    margin-bottom: 2.5em;
+}
+
+.product img {
+  width: 100%;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding: 0em;
+  margin: 0em;
+  height: 300px;
+
+}
+
+.price {
+  position: absolute;
+  top: 8em;
+  left: 15px;
+  background: #780116;
+  color: #F5F1DC;
+  padding: 6px 12px;
+  border-radius: 999px;
+    font-family: "Galada", cursive;
+  font-weight: 400;
+  font-style: normal;
+  transform: rotate(30deg);
+  font-size: 1.6em;
+  width: 4em;
+}
+
+.dropdown{
+    background-color: #780116;
+    border: #780116 2px solid;
+    font-size: 1.3em;
+    outline: none;
+    border-radius: 40px;
+    width: 5em;
+    margin-top: 1em;
+    text-align: center;
+    color: #F5F1DC;
+}
+
+.last{
+    margin-bottom: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #780116;
+    padding: 0.5em;
+    justify-content: space-between;
+}
+.home{
+    margin-left: 5em;
+}
+.rate{
+    margin-right: 5em;
+}
